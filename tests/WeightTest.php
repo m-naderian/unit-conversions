@@ -2,8 +2,8 @@
 
 namespace Mnaderian\UnitConversions\Tests;
 
-use PHPUnit\Framework\TestCase;
 use Mnaderian\UnitConversions\Weight;
+use PHPUnit\Framework\TestCase;
 
 class WeightTest extends TestCase
 {
