@@ -4,7 +4,15 @@
 [![Tests](https://github.com/mnaderian/unit-conversions/actions/workflows/run-tests.yml/badge.svg?branch=main)](https://github.com/mnaderian/unit-conversions/actions/workflows/run-tests.yml)
 [![Total Downloads](https://img.shields.io/packagist/dt/mnaderian/unit-conversions.svg?style=flat-square)](https://packagist.org/packages/mnaderian/unit-conversions)
 
-This is where your description should go. Try and limit it to a paragraph or two. Consider adding a small example.
+This package can perform various unit conversions. Right now, only kg to lbs is supported.
+
+Here's how to use it:
+
+```php
+use Mnaderian\UnitConversions\Weight;
+
+Weight::fromKilograms(100)->toLbs(); // returns 220.4623;
+```
 
 ## Installation
 
