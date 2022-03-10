@@ -2,13 +2,12 @@
 
 namespace Mnaderian\UnitConversions;
 
-use Exception;
-
 class Weight
 {
     private float $kilograms;
 
-    public static function fromKilograms(float $kilograms): self {
+    public static function fromKilograms(float $kilograms): self
+    {
         return new static($kilograms);
     }
 
